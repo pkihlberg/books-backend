@@ -1,0 +1,51 @@
+# Visual Studio & Rider files
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+out/
+
+# .NET Core files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.psess
+*.vspx
+app.publish/
+node_modules/
+dist/
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+
+# Entity Framework Migrations (optional, remove if you want to track migrations)
+Migrations/
+
+# Log files
+logs/
+*.log
+
+# Debugging files
+*.pdb
+*.bak
+*.swp
+
+# Configuration & Secrets (Don't commit secrets!)
+appsettings.json
+appsettings.Development.json
+secrets.json
+
+# macOS & Linux files
+.DS_Store
+*.swp
