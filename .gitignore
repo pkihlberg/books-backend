@@ -29,9 +29,6 @@ dist/
 *.sqlite3
 *.sqlite-journal
 
-# Entity Framework Migrations (optional, remove if you want to track migrations)
-Migrations/
-
 # Log files
 logs/
 *.log
